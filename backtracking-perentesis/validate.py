@@ -1,7 +1,7 @@
 from ast import Return
 
 
-def is_valid_regular1(combination):
+def is_valid_regular_regular1(combination):
     # Initiate empty stack
     stack = []
     # Iterate over chars in combination
@@ -21,7 +21,7 @@ def is_valid_regular1(combination):
     # Otherwise it means that we have opening parentheses that we didn't close
     return len(stack) == 0
 
-def is_valid_regular2(combination):
+def is_valid_regular_regular2(combination):
     # Use int as counter
     diff = 0
     # Iterate over chars in combination
