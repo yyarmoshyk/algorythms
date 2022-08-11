@@ -1,0 +1,1 @@
+Check if the heal structure is symmetric using depth for search recursive algorythm
